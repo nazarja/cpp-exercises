@@ -168,9 +168,9 @@ string CellString(State cell)
     case State::kPath:
         return "🚗   ";
     case State::kStart:
-        return "🚦 ";
+        return "🚦   ";
     case State::kFinish:
-        return "🏁 ";
+        return "🏁   ";
     default:
         return "0    ";
     }
